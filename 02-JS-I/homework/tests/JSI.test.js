@@ -254,14 +254,14 @@ describe('obtenerAreaRectangulo(alto, ancho)', function() {
 });
 
 describe('retornarPerimetro(lado)', function() {
-  it(null), function() {
+  it('Deberia retornar el perímetro correcto del cuadrado', function() {
     expect(retornarPerimetro(2)).toBe(8);
     expect(retornarPerimetro(8)).toBe(32);
     expect(retornarPerimetro(0)).toBe(0);
   });
 });
 
-// 'Deberia retornar el perímetro correcto del cuadrado'
+
 describe('areaDelTriangulo( base, altura)', function() {
   it('Deberia retornar el area correcta del triángulo', function() {
     expect(areaDelTriangulo(10, 5)).toBe(25);
