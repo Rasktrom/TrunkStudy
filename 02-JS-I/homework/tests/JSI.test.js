@@ -209,7 +209,7 @@ describe('redondearHaciaArriba(num)', function() {
 });
 
 describe('numeroRandom()', function() {
-  it('Debería devolver un número entre 0 y ', function() {
+  it('Debería devolver un número entre 0 y 1', function() {
     expect(typeof numeroRandom()).toBe('number');
     expect(numeroRandom()).toBeGreaterThanOrEqual(0);
     expect(numeroRandom()).toBeLessThan(1);
